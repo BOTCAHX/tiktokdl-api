@@ -47,11 +47,7 @@ app.get('/v1/tiktok/api', async (req, res, next) => {
 	if (!url) return res.json(loghandler.noturl)
 	await tiktokdl(url)
 		.then((result) => {
-			res.json({
-				status: true,
-				code: 200,
-				result
-			})
+	         res.json({ result })
 		})
 		.catch((error) => {
 			res.json(loghandler.error)
