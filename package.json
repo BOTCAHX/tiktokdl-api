@@ -1,0 +1,38 @@
+{
+  "name": "tiktokdl",
+  "version": "0.0.4",
+  "description": "TikTok Downloader API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BOTCAHX/tiktokdl-api"
+  },
+  "keywords": [
+    "simple",
+    "api",
+    "tiktokdl"
+  ],
+  "author": "BOTCAHX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BOTCAHX/tiktokdl-api/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "tiktokdl": "*"
+  },
+  "homepage": "https://github.com/BOTCAHX/tiktokdl-api",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
