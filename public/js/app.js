@@ -15,7 +15,7 @@ form.addEventListener('submit', e => {
     let url = e.target.url.value;
     let domain = url.split('/')[2];
 
-    if(domain === 'www.tiktok.com' || domain === 'vm.tiktok.com' || domain === 'vt.tiktok.com' || domain === 'v.douyin.com'){
+    if(domain === 'www.tiktok.com' || domain === 'vm.tiktok.com' || domain === 'vt.tiktok.com'){
         getUrl(url);
     }else{
         content.innerHTML = '<h3 class="messageError">Error, The url is not a tiktok link!</h3>'
