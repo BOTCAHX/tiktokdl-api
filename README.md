@@ -43,7 +43,7 @@ Example response:
 ```
 
 ## Error Handling
-If there is an error in the URL or the video is not available for download, the API will respond with a JSON object containing an error message.
+If there is an error in the URL or the video is not available for download, the API will respond with a server error.
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
