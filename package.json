@@ -2,11 +2,10 @@
   "name": "tiktokdl-api",
   "version": "2.3.2",
   "description": "Website Tiktok Downloader API.",
-  "main": "index.js",
-  "type": "module",
+  "main": "index.coffee",
   "scripts": {
-    "dev": "nodemon ./index.js",
-    "start": "node index.js",
+    "dev": "nodemon --exec coffee index.coffee",
+    "start": "coffee index.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,6 +19,7 @@
     "koa-static": "^5.0.0",
     "koa-logger": "^3.2.1",
     "koa-ratelimit": "^4.2.1",
-    "koa-response-time": "^2.1.0"
+    "koa-response-time": "^2.1.0",
+    "coffeescript": "^2.7.0"
   }
 }
