@@ -1,5 +1,5 @@
-import { disabledButton } from "./disabledButton.js";
-import { getUrl } from "./getUrl.js";
+import { disabledButton } from "./disabledButton.mjs";
+import { getUrl } from "./getUrl.mjs";
 
 let app = document.getElementById('app');
 let form = document.getElementById('form');
