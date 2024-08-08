@@ -5,7 +5,8 @@
   "main": "index.coffee",
   "scripts": {
     "dev": "nodemon --exec coffee index.coffee",
-    "start": "coffee index.coffee",
+    "start": "node index.js",
+    "start:coffee": "coffee index.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
